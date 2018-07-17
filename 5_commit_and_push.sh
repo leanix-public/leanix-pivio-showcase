@@ -11,6 +11,6 @@ projects="service-cart service-dataloader service-navigation service-product ser
 for project in $projects; do
   cd appstash-$project
   git remote add $1 https://github.com/$1/appstash-$project
-  git add -A && git commit -m "$2" && git push
+  git add -A && git commit -m "$2" && git push $1
   cd ..
 done
