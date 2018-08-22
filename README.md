@@ -10,7 +10,7 @@ Prerequisites -
 * Package manager (npm, homebrew)
 * Github account
 * Git CLI (https://git-scm.com/book/en/v2/Getting-Started-The-Command-Line)
-* Travis account (https://travis-ci.org/) In order to connect to Github ===> 
+* Travis account (https://travis-ci.org/)
 * Travis CLI (https://github.com/travis-ci/travis.rb)
 
 - It also would not be a bad idea to create the repositories, on your own github account, which are mentioned in the following   shell script: https://github.com/leanix-public/leanix-pivio-showcase/blob/master/0_checkout.sh. This can also be adapted       if you would like to use different projects; simply fork the repository and change the projects mentioned in the array. This   is the array I am referring to in that shell script =====> projects="service-cart service-dataloader service-navigation       service-product service-recommendation service-user frontend-catalog frontend-checkout frontend-registration"
