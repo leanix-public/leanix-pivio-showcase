@@ -13,18 +13,31 @@ Prerequisites:
 travis login -u <github user>
 ```
 
-6. Clone this project
+6. Clone this project and setup your individual sample projects
 ```
 git clone git@github.com:leanix-public/leanix-pivio-showcase.git
 cd leanix-pivio-showcase
+./0_checkout.sh
+./1_create_github_repos.sh <github user>
+./2_push_to_new_repos <github user>
+```
+
+Steps to execute within a demo:
+1. Create an API token for your LeanIX workspace and add it to Travis
+```
+./3_set_token.sh <token>
+```
+2. Emulate a change in all teams
+```
+./4_change_all.sh <some nice comment>
+```
+3. Commit and push the changes to start your CI/CD pipeline
+```
+./6_commit_and_push.sh <some nice commit message
 ```
 
 
-* Github account
-* Git CLI (https://git-scm.com/book/en/v2/Getting-Started-The-Command-Line)
-* Travis account ( - connect to Github
-* Travis CLI (https://github.com/travis-ci/travis.rb)
-
+# Overview on the provided scripts
 The shell scripts provided allow you to set up and execute the showcases:
 - 0_checkout.sh - Fetches the sample projects from the source repo
 - 1_create_github_repos.sh - Creates new projects within the provided github account
