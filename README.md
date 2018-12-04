@@ -20,7 +20,7 @@ Paste it according to https://help.github.com/articles/adding-a-new-ssh-key-to-y
 ```
 brew install git
 ```
-5. Install Travis CLI (https://github.com/travis-ci/travis.rb#installation)
+5. Install Travis CLI 
 ```
 sudo gem install travis -v 1.8.9 --no-rdoc --no-ri
 ```
