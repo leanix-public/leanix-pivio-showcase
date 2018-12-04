@@ -39,6 +39,8 @@ cd leanix-pivio-showcase
 ./2_push_to_new_repo.sh <github user>
 ```
 
+8. Sync your repositories between Travis and Github: Goto https://travis-ci.org/account/repositories, hit "Sync Account", Activate all your repos
+
 Steps to execute within a demo:
 1. Create an API token for your LeanIX workspace and add it to Travis
 ```
