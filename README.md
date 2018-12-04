@@ -4,10 +4,14 @@
 
 Prerequisites:
 
-1. Create a Github account and add an SSH key (https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
+1. Create a Github account and add an SSH key 
 ```
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+eval "$(ssh-agent -s)"
+ssh-add -K ~/.ssh/id_rsa
+pbcopy < ~/.ssh/id_rsa.pub
 ```
+Paste it according to https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
 
 
 2. Create a Travis CI account with your Github account (https://travis-ci.com/signin)
