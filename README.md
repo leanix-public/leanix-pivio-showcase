@@ -36,7 +36,7 @@ git clone git@github.com:leanix-public/leanix-pivio-showcase.git
 cd leanix-pivio-showcase
 ./0_checkout.sh
 ./1_create_github_repos.sh <github user>
-./2_push_to_new_repos <github user>
+./2_push_to_new_repo.sh <github user>
 ```
 
 Steps to execute within a demo:
