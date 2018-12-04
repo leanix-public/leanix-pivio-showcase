@@ -14,7 +14,7 @@ pbcopy < ~/.ssh/id_rsa.pub
 Paste it according to https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
 
 
-2. Create a Travis CI account with your Github account (https://travis-ci.com/signin)
+2. Create a Travis CI account with your Github account (https://travis-ci.org/signin)
 3. Install brew from https://brew.sh
 4. Install Git CLI 
 ```
