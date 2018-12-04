@@ -22,7 +22,7 @@ brew install git
 ```
 5. Install Travis CLI (https://github.com/travis-ci/travis.rb#installation)
 ```
-gem install travis -v 1.8.9 --no-rdoc --no-ri
+sudo gem install travis -v 1.8.9 --no-rdoc --no-ri
 ```
 
 6. Login to Travis with your Github credentials
