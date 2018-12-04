@@ -42,7 +42,7 @@ cd leanix-pivio-showcase
 Steps to execute within a demo:
 1. Create an API token for your LeanIX workspace and add it to Travis
 ```
-./3_set_token.sh <token>
+./3_set_token.sh <github user> <token>
 ```
 2. Emulate a change in all teams
 ```
