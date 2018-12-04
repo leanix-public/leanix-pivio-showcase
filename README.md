@@ -5,6 +5,11 @@
 Prerequisites:
 
 1. Create a Github account and add an SSH key (https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
+```
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+
+
 2. Create a Travis CI account with your Github account (https://travis-ci.com/signin)
 3. Install Git CLI (https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 4. Install Travis CLI (https://github.com/travis-ci/travis.rb#installation)
