@@ -52,7 +52,7 @@ Steps to execute within a demo:
 ```
 3. Commit and push the changes to start your CI/CD pipeline
 ```
-./6_commit_and_push.sh <some nice commit message
+./6_commit_and_push.sh <github account> <some nice commit message>
 ```
 
 
