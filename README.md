@@ -16,8 +16,15 @@ Paste it according to https://help.github.com/articles/adding-a-new-ssh-key-to-y
 
 2. Create a Travis CI account with your Github account (https://travis-ci.com/signin)
 3. Install brew from https://brew.sh
-3. Install Git CLI (https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+4. Install Git CLI 
+```
+brew install git
+```
 4. Install Travis CLI (https://github.com/travis-ci/travis.rb#installation)
+```
+gem install travis -v 1.8.9 --no-rdoc --no-ri
+```
+
 5. Login to Travis with your Github credentials
 ```
 travis login -u <github user>
