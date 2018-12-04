@@ -20,17 +20,17 @@ Paste it according to https://help.github.com/articles/adding-a-new-ssh-key-to-y
 ```
 brew install git
 ```
-4. Install Travis CLI (https://github.com/travis-ci/travis.rb#installation)
+5. Install Travis CLI (https://github.com/travis-ci/travis.rb#installation)
 ```
 gem install travis -v 1.8.9 --no-rdoc --no-ri
 ```
 
-5. Login to Travis with your Github credentials
+6. Login to Travis with your Github credentials
 ```
 travis login -u <github user>
 ```
 
-6. Clone this project and setup your individual sample projects
+7. Clone this project and setup your individual sample projects
 ```
 git clone git@github.com:leanix-public/leanix-pivio-showcase.git
 cd leanix-pivio-showcase
