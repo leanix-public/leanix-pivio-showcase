@@ -27,7 +27,7 @@ sudo gem install travis -v 1.8.9 --no-rdoc --no-ri
 
 6. Login to Travis with your Github credentials
 ```
-travis login -u <github user>
+travis login -u <github user> --org
 ```
 
 7. Clone this project and setup your individual sample projects
