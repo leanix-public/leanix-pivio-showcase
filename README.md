@@ -11,26 +11,27 @@ eval "$(ssh-agent -s)"
 ssh-add -K ~/.ssh/id_rsa
 pbcopy < ~/.ssh/id_rsa.pub
 ```
-Paste it according to https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
+
+2. Paste your SSH key according to https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
 
 
-2. Create a Travis CI account with your Github account (https://travis-ci.org/signin)
-3. Install brew from https://brew.sh
-4. Install Git CLI 
+3. Create a Travis CI account with your Github account (https://travis-ci.org/signin)
+4. Install brew from https://brew.sh
+5. Install Git CLI 
 ```
 brew install git
 ```
-5. Install Travis CLI 
+6. Install Travis CLI 
 ```
 sudo gem install travis -v 1.8.9 --no-rdoc --no-ri
 ```
 
-6. Login to Travis with your Github credentials
+7. Login to Travis with your Github credentials
 ```
 travis login -u <github user> --org
 ```
 
-7. Clone this project and setup your individual sample projects
+8. Clone this project and setup your individual sample projects
 ```
 git clone git@github.com:leanix-public/leanix-pivio-showcase.git
 cd leanix-pivio-showcase
@@ -39,7 +40,7 @@ cd leanix-pivio-showcase
 ./2_push_to_new_repo.sh <github user>
 ```
 
-8. Sync your repositories between Travis and Github: Goto https://travis-ci.org/account/repositories, hit "Sync Account", Activate all your repos
+9. Sync your repositories between Travis and Github: Goto https://travis-ci.org/account/repositories, hit "Sync Account", Activate all your repos
 
 Steps to execute within a demo:
 1. Create an API token for your LeanIX workspace and add it to Travis
