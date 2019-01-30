@@ -35,9 +35,10 @@ travis login -u <github user> --org
 ```
 git clone git@github.com:leanix-public/leanix-pivio-showcase.git
 cd leanix-pivio-showcase
-./0_checkout.sh
-./1_create_github_repos.sh <github user>
-./2_push_to_new_repo.sh <github user>
+./01_initial_checkout.sh
+./02_create_github_repos.sh <github user> TODO: give password as argument
+./03_push_to_new_repo.sh <github user>
+./1_clean_and_checkout.sh <github user>
 ```
 
 9. Sync your repositories between Travis and Github: Goto https://travis-ci.org/account/repositories, hit "Sync Account", Activate all your repos
